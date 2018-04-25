@@ -1,0 +1,10 @@
+version: 0.2
+
+env:
+  variables:
+    ENVIRONMENT: "dev"
+
+phases:
+  lint:
+    commands:
+      - npm run lint
