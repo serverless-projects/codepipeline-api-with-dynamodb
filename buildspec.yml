@@ -7,4 +7,5 @@ env:
 phases:
   build:
     commands:
+      - npm install
       - npm run lint
