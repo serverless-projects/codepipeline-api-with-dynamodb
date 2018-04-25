@@ -5,6 +5,6 @@ env:
     ENVIRONMENT: "dev"
 
 phases:
-  lint:
+  build:
     commands:
       - npm run lint
